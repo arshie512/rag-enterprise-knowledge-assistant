@@ -1,0 +1,25 @@
+.venv/
+.uv_cache/
+__pycache__/
+*.py[cod]
+.env
+storage/models/
+data/source_documents/
+
+# Local vector database
+storage/chroma/
+
+# Private source documents
+data/assignment_brief/
+data/source_documents/
+
+# Local model cache
+storage/models/
+
+# Python environments
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
